@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{f97c12c8-ef26-4591-ba34-bdbaa56e27ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{b977f24b-051a-4039-878b-9f03625851ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card">
+      <UniqueIdentifier>{57603081-8c29-4ec5-bae8-ba1054060c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="terminal">
+      <UniqueIdentifier>{bf844512-3309-4ac7-a4e9-06ccbc226375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="application\application.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="card\card.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terminal\terminal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\e\lab%27s embededd\final project\Final_project\drivers\inc\std_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="application\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="card\card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="terminal\terminal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
